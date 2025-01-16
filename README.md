@@ -31,5 +31,3 @@ The total profit or loss for the entire portfolio, giving users a holistic view 
 
 5. Pull To Refresh
 Under Portfolio Tab, Holding Section you can try out pull to refresh feature, which will call api and get the latest updated data.
-
-6. 
