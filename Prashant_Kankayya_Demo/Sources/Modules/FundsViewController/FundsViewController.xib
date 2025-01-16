@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FundsViewController" customModule="Prashant_Kankayya_Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="gGA-Kr-FAA" id="LVu-ep-Z2m"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gGA-Kr-FAA">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kindly Select Portfolio Tab To Test The Task" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vW1-b2-baT">
+                    <rect key="frame" x="20" y="400.5" width="374" height="95.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Xyj-vS-Hz8"/>
+            <color key="backgroundColor" red="0.34901961679999999" green="0.19607841970000001" blue="0.5411764979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="vW1-b2-baT" firstAttribute="centerX" secondItem="gGA-Kr-FAA" secondAttribute="centerX" id="Ae7-u4-qFj"/>
+                <constraint firstItem="vW1-b2-baT" firstAttribute="leading" secondItem="gGA-Kr-FAA" secondAttribute="leading" constant="20" id="hrE-gy-ujj"/>
+                <constraint firstAttribute="trailing" secondItem="vW1-b2-baT" secondAttribute="trailing" constant="20" id="kze-vT-KyG"/>
+                <constraint firstItem="vW1-b2-baT" firstAttribute="centerY" secondItem="gGA-Kr-FAA" secondAttribute="centerY" id="yGw-2G-7Qe"/>
+            </constraints>
+            <point key="canvasLocation" x="208" y="-249"/>
+        </view>
+    </objects>
+</document>
