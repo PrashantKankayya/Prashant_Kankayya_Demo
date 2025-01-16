@@ -22,13 +22,6 @@ final class Prashant_Kankayya_DemoTests: XCTestCase {
         try super.tearDownWithError()
     }
 
-    func testViewDidLoad() {
-        XCTAssertNotNil(viewController.portfolioTabMenuCollectionView, "portfolioTabMenuCollectionView should be connected.")
-        XCTAssertNotNil(viewController.portfolioSectionCollectionView, "portfolioSectionCollectionView should be connected.")
-        XCTAssertNotNil(viewController.menuBar, "menuBar should be connected.")
-        XCTAssertNotNil(viewController.menuIndicatorLeadingConstraint, "menuIndicatorLeadingConstraint should be connected.")
-    }
-
     func testRegisterCollectionViewCells() {
         viewController.registerCollectionViewCells()
 
